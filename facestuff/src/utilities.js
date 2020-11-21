@@ -2682,11 +2682,32 @@ export const TRIANGULATION = [
   
           ctx.beginPath();
           ctx.arc(x, y, 1 /* radius */, 0, 3 * Math.PI);
-          if(i > 10 || i < 50){
+          // 11 - 19 (nose and centre under lip)
+          // 0 - 20 centre line
+          // if(i > 411 && i < 415 && i != 19){
+          //   ctx.fillStyle = "black";
+          // }
+          if(i == 19){
             ctx.fillStyle = "red";
-            console.log(i)
+
+          }
+          else if(i == 411){
+            ctx.fillStyle = "blue";
+
+          }
+          else if(i == 356){
+            ctx.fillStyle = "red";
+
+          }
+          else if(i == 187){
+            ctx.fillStyle = "blue";
+
+          }
+          else if(i == 127){
+            ctx.fillStyle = "red";
+
           }else{
-            ctx.fillStyle = "aqua";
+            ctx.fillStyle = "white";
           }
           
           ctx.fill();

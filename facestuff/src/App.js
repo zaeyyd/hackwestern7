@@ -55,7 +55,20 @@ function App() {
 
       // Make Detections
       const face = await net.estimateFaces(video);
-      // console.log(face);
+      // console.log(face[0].scaledMesh[187]);
+      // console.log(face[0].scaledMesh[127]);
+
+      try{
+      if(face[0].scaledMesh[187] < face[0].scaledMesh[127]){
+        console.log("looking right")
+      }
+
+      else if(face[0].scaledMesh[411] > face[0].scaledMesh[356]){
+        console.log("looking left")
+      }
+    }catch{
+      console.log('checked blind spot')
+    }
 
       // Get canvas context
       const ctx = canvasRef.current.getContext("2d");
