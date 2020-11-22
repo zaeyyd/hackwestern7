@@ -1,8 +1,80 @@
-import React from 'react'
+import React from 'react';
+import { Table } from 'react-bootstrap';
 
 export const Leaderboard = () => (
     <div>
         <h2>Leaderboard</h2>
-        <p>** ADD LEADERBOARD TABLE **</p>
+        <Table striped bordered hover size="sm">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Average Pass Rate (%)</th>
+                    <th>Attempts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>waleed4</td>
+                    <td>100%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>sarah27</td>
+                    <td>88%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>keonjin</td>
+                    <td>88%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>zayyed1</td>
+                    <td>75%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>jonsnow</td>
+                    <td>75%%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>hansolo</td>
+                    <td>63%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>anakin45</td>
+                    <td>50%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>jonsnow</td>
+                    <td>25%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>ashketchum1</td>
+                    <td>0%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>babyyoda65</td>
+                    <td>0%</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </Table>
     </div>
 )

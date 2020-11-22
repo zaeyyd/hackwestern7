@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Table } from 'react-bootstrap';
 
 export const PersonalStats = () => (
     <div>
@@ -14,7 +14,40 @@ export const PersonalStats = () => (
                 </Col>
                 <Col>
                     <h4>Pass Rates by Challenges</h4>
-                    <p>** TABLE AND USE CONTAINERS TO ORGANIZE **</p>
+                    <Table striped bordered hover size="sm">
+            <thead>
+                <tr>
+                    <th>Challenge</th>
+                    <th>Pass Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yield Sign</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Stop Sign</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Blindspot</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Traffic Light</td>
+                    <td>75%</td>
+                </tr>
+                <tr>
+                    <td>Speed</td>
+                    <td>75%</td>
+                </tr>
+                <tr>
+                    <td>Engine and Brake Management</td>
+                    <td>25%</td>
+                </tr>
+            </tbody>
+        </Table>
                 </Col>
             </Row>
         </Container>
