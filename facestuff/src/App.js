@@ -23,7 +23,7 @@ function App() {
   const canvasRef = useRef(null);
 
   const events = () => {
-    let 
+    
   }
   //  Load posenet
   const runFacemesh = async () => {
