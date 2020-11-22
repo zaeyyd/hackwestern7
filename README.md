@@ -1,4 +1,4 @@
-# hackwestern7
+# HackWestern7
 ## Inspiration
 Due to COVID-19, the closure of all 56 DriveTest locations has caused nearly half a million canceled driving tests and half of those were road tests. Not only that but all driving ed class have been canceled leaving thousands of people without the ability to learn and get road experience 
 
