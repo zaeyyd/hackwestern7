@@ -1,6 +1,6 @@
-Note:
+
 ```diff
-Pushing Unity Project to Github wasn't working due to file size problems and time issues. Find a link below to the project pacakage file, ready to download:
+Note: Pushing Unity Project to Github wasn't working due to file size problems and time issues. Find\n a link below to the project pacakage file, ready to download:
 ```
 [Click Here](https://uwoca-my.sharepoint.com/:u:/g/personal/wsawan2_uwo_ca/EVgFXqgTQT1Gv4iU7E6o4jUBBWv0q3tByE-JigwLLi4sWA?e=19lQhe)
 # HackWestern7
