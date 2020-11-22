@@ -9,6 +9,9 @@ A web application that monitors user facial movement and input to ensure they ab
 
 Several technologies were used to develop DriverEd 2.0. React and Bootstrap was used to create the frontend functionalities. Unity and Blender were used in the creation of the in house developed driving engine. FireBase was used to store driving test scores as well as user information and finally, Tensorflow was used in the analysis of head and eye movement 
 
+Pushing Unity Project to Github wasn't working due to file size problems and time issues. Find a link below to the project pacakage file, ready to download:
+[Click Here](https://uwoca-my.sharepoint.com/:u:/g/personal/wsawan2_uwo_ca/EVgFXqgTQT1Gv4iU7E6o4jUBBWv0q3tByE-JigwLLi4sWA?e=19lQhe)
+
 ## Functionality 
 
 DriverEd 2.0 has a variety of built-in functionality, allowing for the simple detection and reporting of driver errors. This functionality includes features like yielding and stopping, where the game will report the car movement and the alertness of the driver (e.g. checking for pedestrians), using the facial detection system. Blindspot is also a key highlight of the system, so at specific points in the routes where the driver would need to check their blind spot, the facial detection system will return whether they are checking.
