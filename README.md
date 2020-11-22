@@ -1,3 +1,8 @@
+Note:
+
+-Pushing Unity Project to Github wasn't working due to file size problems and time issues. Find a link below to the project pacakage file, ready to download:
+[Click Here](https://uwoca-my.sharepoint.com/:u:/g/personal/wsawan2_uwo_ca/EVgFXqgTQT1Gv4iU7E6o4jUBBWv0q3tByE-JigwLLi4sWA?e=19lQhe)
+
 # HackWestern7
 ## Inspiration
 Due to COVID-19, the closure of all 56 DriveTest locations has caused nearly half a million canceled driving tests and half of those were road tests. Not only that but all driving ed class have been canceled leaving thousands of people without the ability to learn and get road experience 
@@ -9,8 +14,6 @@ A web application that monitors user facial movement and input to ensure they ab
 
 Several technologies were used to develop DriverEd 2.0. React and Bootstrap was used to create the frontend functionalities. Unity and Blender were used in the creation of the in house developed driving engine. FireBase was used to store driving test scores as well as user information and finally, Tensorflow was used in the analysis of head and eye movement 
 
-Pushing Unity Project to Github wasn't working due to file size problems and time issues. Find a link below to the project pacakage file, ready to download:
-[Click Here](https://uwoca-my.sharepoint.com/:u:/g/personal/wsawan2_uwo_ca/EVgFXqgTQT1Gv4iU7E6o4jUBBWv0q3tByE-JigwLLi4sWA?e=19lQhe)
 
 ## Functionality 
 
